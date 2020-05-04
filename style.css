@@ -1,0 +1,29 @@
+html {
+    height: 100%;
+  }
+  body {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: 1fr auto;
+  }
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(3, 46, 59);
+    color: white;
+    text-align: center;
+ }
+
+ p {
+    font-family: 'Playfair Display', serif;
+ }
+
+ h3{
+    font-family: 'Playfair Display', serif;
+ }
+
+ h5{
+     color: blue;
+ }
